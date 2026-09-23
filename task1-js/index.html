@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="css" href="style.css">
+</head>
+<body>
+    <!-- task1-->
+     <!-- 1 ==> Custemer Name  -->
+    <label>Customer Name : </label>
+    <input  id="customerName " type="text"> 
+<br> <br> 
+    <!-- 2 ==> Order  -->
+     <label> The Order : </label>
+     <select id="order"> 
+     <option>burger </option>
+     <option>shawarma </option>
+     <option>zinger </option>
+     </select>
+<br> <br> 
+     <!-- 3.1 ==> submit button -->
+     <button class="but" id="submitButon" onclick="displayOrder()" 
+       onmouseover="changeColor()" onmouseout="resetColor()">
+        Submit 
+    </button>
+
+     <!-- 4 ==> to show information -->
+     <p id="information"></p>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
